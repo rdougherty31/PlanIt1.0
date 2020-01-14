@@ -1,0 +1,58 @@
+/* style for post component */
+.postWrapper {
+    width: 40rem;
+    margin: 0.5rem auto;
+    padding: .5rem;
+    border-radius: .5rem;
+    text-align: center;
+    margin-top: -24rem;
+    height: 40rem;
+    /* background: url("../../placeholderGlobe.jpg");
+    background-size: cover;
+    background-position: center; */
+    padding: 0;
+}
+.innerWrapper {
+    /* background: rgba(0,0,0,.4); */
+    height: 100%;
+    width: 100%;
+    border-radius: 1.75rem;
+}
+.postDest, .postFriends, .postDates {
+    font-family: 'Poppins', sans-serif;
+    color: #5f5f62;
+    font-size: 1.75rem;
+    padding: 1.5rem;
+    text-shadow: 0 0 0.15rem #fff;
+}
+.postDest {
+    padding-top: 8rem;
+}
+.postDates {
+    margin-bottom: 5rem;
+}
+#planitBtn {
+    margin: 3rem;
+}
+.innerWrapper {
+    overflow: scroll;
+}
+.innerWrapper::-webkit-scrollbar {
+    display: none;
+}
+.listItems {
+    margin-bottom: 8rem;
+}
+.nextTripBtn {
+    width: 8rem;
+    box-shadow: none;
+    text-shadow: none;
+    border: 2px dashed #fe5;
+    background: #ff4443;
+    color: #fe5;
+    font-size: 1.5rem;
+}
+.nextTripBtn:hover {
+    border:none;
+    padding: .5rem;
+}

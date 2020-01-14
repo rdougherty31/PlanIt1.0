@@ -1,0 +1,14 @@
+.interests, #otherInterests input {
+    display: inline;
+}
+#otherInterests {
+    width: 30%;
+    margin: 1rem auto;
+    border-radius: .5rem;
+    font-family: poppins;
+    font-size: 1.25rem;
+}
+#otherInterests input {
+    margin-left: 8rem;
+    margin-bottom: .75rem;
+}
